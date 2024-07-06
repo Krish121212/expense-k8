@@ -37,6 +37,9 @@ spec:
         envFrom:
         - configMapRef:
             name: backend
+
+# we will login as expense user, because we gave user expense in docker file in backend code pulling fromdocker hub.
+# As we picked alpina OS,even curl command won't be working on in container. to make them work give them in DF.
 ---
 kind: Service
 apiVersion: v1
