@@ -12,3 +12,5 @@ spec:
 # So only those extra command can be used in hub.
 
 # similarly you can write commands required for your project in image code n use them
+
+# The above process is especially used for debugging.
