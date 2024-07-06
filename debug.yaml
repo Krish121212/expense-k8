@@ -8,5 +8,5 @@ spec:
   - name: debug
     image: devopskk/debug:v1.0
 
-# alme OS - less commands, to get some required commands, wrote them in debug image in dockerhub. called it here
+# alma OS - less commands, to get some required commands, wrote them in debug image in dockerhub. called it here
 # So only those extra commands can be used in hub.
