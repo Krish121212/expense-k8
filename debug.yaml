@@ -9,4 +9,6 @@ spec:
     image: devopskk/debug:v1.0
 
 # alma OS - less commands, to get some required commands, wrote them in debug image in dockerhub. called it here
-# So only those extra commands can be used in hub.
+# So only those extra command can be used in hub.
+
+# similarly you can write commands required for your project in image code n use them
