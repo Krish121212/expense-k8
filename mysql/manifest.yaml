@@ -41,8 +41,8 @@ spec:
         livenessProbe:
           tcpSocket:
             port: 3306
-          initialDelaySeconds: 100
-          periodSeconds: 5
+          initialDelaySeconds: 100 # starting first healthcheck after container creation, as it needs time for creaation
+          periodSeconds: 5 # time gap b/w checking the health
 ---
 kind: Service
 apiVersion: v1
