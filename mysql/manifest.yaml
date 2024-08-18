@@ -28,11 +28,11 @@ spec:
         image: devopskk/mysql:v1.0
         resources:
           requests:
-            cpu: "100m"
-            memory: "128Mi"
+            cpu: "500m"
+            memory: "500Mi"
           limits:
-            cpu: "150m"
-            memory: "256Mi"
+            cpu: "900m"
+            memory: "500Mi"
         readinessProbe:
           tcpSocket:
             port: 3306
